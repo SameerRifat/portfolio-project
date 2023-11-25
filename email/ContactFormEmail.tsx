@@ -18,6 +18,7 @@ type ContactFormEmailProps = {
 };
 
 const ContactFormEmail = ({ message, senderEmail }: ContactFormEmailProps) => {
+  
   return (
     <Html>
       <Head />
