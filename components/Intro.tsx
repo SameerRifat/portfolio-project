@@ -68,6 +68,7 @@ const Intro = () => {
         //   //   duration: 0.1,
         // }}
       >
+        {/* eslint-disable react/no-unescaped-entities */}
         <span className="font-bold">Hello, I'm Sameer.</span> I'm a{" "}
         <span className="font-bold">full-stack developer</span> with{" "}
         <span className="font-bold">2 years</span> of experience. I enjoy

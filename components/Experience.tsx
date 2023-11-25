@@ -21,9 +21,6 @@ const Experience = () => {
       <SectionHeading>Experience</SectionHeading>
       <VerticalTimeline lineColor="" animate={true}>
         {experiencesData.map((item, index) => {
-            const { ref, inView } = useInView({
-                triggerOnce: true,
-              });
           return (
             <React.Fragment key={index}>
                 <TimelineElement item={item} />
