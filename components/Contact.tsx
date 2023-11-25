@@ -53,7 +53,7 @@ const Contact = () => {
         }}
       >
         <input
-          className="h-14 borderBlack p-2 dark:bg-white dark:bg-opacity-10 dark:focus:bg-opacity-100 transition-all dark:outline-none dark:text-gray-800"
+          className="h-14 borderBlack p-2 dark:bg-white dark:bg-opacity-10 dark:focus:bg-opacity-100 transition-all dark:outline-none dark:text-gray-800 dark:placeholder:text-gray-800"
           name="senderEmail"
           type="email"
           placeholder="Your email"
@@ -63,7 +63,7 @@ const Contact = () => {
         <textarea
           placeholder="Your message"
           name="message"
-          className="h-52 my-3 rounded-lg borderBlack p-4 dark:bg-white dark:bg-opacity-10 dark:focus:bg-opacity-100 transition-all dark:outline-none dark:text-gray-800"
+          className="h-52 my-3 rounded-lg borderBlack p-4 dark:bg-white dark:bg-opacity-10 dark:focus:bg-opacity-100 transition-all dark:outline-none dark:text-gray-800z dark:placeholder:text-gray-800"
           required
           maxLength={5000}
         ></textarea>
